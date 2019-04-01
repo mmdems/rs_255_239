@@ -1,9 +1,12 @@
 # RS (255, 239)
 Decoder for Reed-Solomon (255, 239) codes
 
+# Summary
+Decoder was implemented in fully accordance with ITU-T G.975 recommendations.
+Input is 64-bit, output is 64-bit also. Decoder operates with OTN frames
+described in ITU-T G.975
 
-Decoder was implemented in accordance with ITU-T G.975 recommendations.
-Input is 64-bit, output is 64-bit also.
-
-Syndrome calculator operates with 8 code word per cycle
-Berlekamp-Massey algorithm was implemented via folding technique.
+# Modules
+All is standard except the Berlekamp-Massey module (kes.vhd). It was implemented
+via using folding technique, also known as RiBM/SiBM algorithms, you can find it
+at IEEE library
