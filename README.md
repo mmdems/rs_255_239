@@ -1,4 +1,4 @@
-# RS-255-239-
+# RS (255, 239)
 Decoder for Reed-Solomon (255, 239) codes
 
 
