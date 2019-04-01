@@ -10,3 +10,5 @@ described in ITU-T G.975
 All is standard except the Berlekamp-Massey module (kes.vhd). It was implemented
 via using folding technique, also known as RiBM/SiBM algorithms, you can find it
 at IEEE library
+#
+more to follow...
